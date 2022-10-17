@@ -7,6 +7,9 @@
 
 name: Build and deploy JAR app to Azure Web App - empmanagment
 
+env:
+    App_CONFIGURATION_CONNECTION_STRING: ${{ secrets.APP_CONFIGURATION_CONNECTION_STRING}}
+
 
 
 on:
